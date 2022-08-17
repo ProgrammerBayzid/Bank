@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-2xl italic font-weight: 800; font-semibold text-5xl	text-center	mt-16
+         ">Let Get Some Money</h1>
+    </header>
+
+    <main>
+        <section class="mt-10">
+            <div class="grid grid-cols-3 gap-5 w-9/12 mx- mx-auto text-white">
+                
+            <div class="bg-green-400 p-8 rounded-xl">
+                <h4 class="text-2xl">Deposit</h4>
+                <p class="text-4xl">$<span id="Deposit">00</span></p>               
+            </div>
+            <div class="bg-yellow-500 p-8 rounded-xl">
+                <h4 class="text-2xl">Withdrow</h4>
+                <p class="text-4xl">$<span id="Withdrow">00</span></p>               
+            </div>
+            <div class="bg-violet-500 p-8 rounded-xl">
+                <h4 class="text-2xl">Blance</h4>
+                <p class="text-4xl">$<span id="Blance">1230</span></p>               
+            </div>
+           
+                
+              </div>
+        </section>
+        
+
+        <section class="mt-10">
+            <div class="grid grid-cols-2 gap-7 w-8/12  mx-auto ">
+                
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h3 class="text-3xl	mb-4 text-white">Please Deposit </h3>
+                    <input id="input-Deposit" class="w-9/12 block mb-4 rounded px-2" type="text" name="" id="" placeholder="Enter Your Deposit">  
+                    <button id="Deposit-button" class="rounded-md px-4 py-2 bg-blue-700 text-white	hover:bg-violet-500	" type="submit">Deposit</button>       
+                </div>
+                
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h3 class="text-3xl	mb-4 text-white">Please Withdrow </h3>
+                    <input id="input-Withdrow" class="w-9/12 block mb-4 rounded px-2" type="text" name="" id="" placeholder="Enter Your Withdrow"> 
+                    <button id="Withdrow-button" class="rounded-md px-4 py-2 bg-blue-700 text-white	hover:bg-violet-500	" type="submit">Withdrow</button>        
+                </div>
+                
+               
+               
+                    
+                  </div>
+        </section>
+       
+    </main>
+    <script src="utilits.js"></script>
+    <script src="deposite.js"></script>
+    <script src="withdrow.js"></script>
+</body>
+</html>
